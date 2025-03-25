@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style>
+            body, html {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="width: 100%; height: 100%; max-width: 100%">
+            <div id="game"></div>
+        </div>
+
+        <!-- Include EmulatorJS Core -->
+        <script src="https://cdn.emulatorjs.org/stable/data/emulator.min.js"></script>
+
+        <script>
+          
+            // EmulatorJS configuration
+            EJS_player = "#game";  // ID of the div where the game will be displayed
+            EJS_core = "gba";  // Use the Game Boy Advance emulator core
+            EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";  // Path to EmulatorJS data
+            EJS_gameUrl = "https://cors-anywhere.herokuapp.com/https://www.dropbox.com/scl/fi/0f5b3es9nqb7hbxkdi7e8/pokemonfirered.gba?rlkey=6dczs913pfxpe1zx4nu93acdy&st=ej1enaey&dl=1";
+
+            // Note: Replace "FILE_ID" with your actual file ID from Google Drive or your cloud service
+        </script>
+
+        <!-- Include the Loader Script -->
+        <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+    </body>
+</html>
+
