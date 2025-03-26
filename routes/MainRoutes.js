@@ -8,7 +8,6 @@ router.get('/' , (req,res) => {
 
     res.sendFile(filepath)
 
-    console.log(__dirname , '../public/Game.html')
 })
 
 module.exports = router
